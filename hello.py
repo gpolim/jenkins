@@ -16,7 +16,9 @@ df2 = df.drop("userId")
 
 df2 = df2.with_column(pl.col('title').cast(pl.Utf8))
 
-# Converta o conteúdo da coluna 'title' em maiúsculas
-df2['title'] = df2['title'].str_to_upper()
+def to_uppercase(s: str) -> str:
+    return s.upper()
+
+df2['title'] = df2['title'].apply(to_uppercase)
 
 print(df2)
