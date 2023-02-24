@@ -2,7 +2,7 @@ import requests
 import polars as pl
 
 # Faz uma solicitação GET para a API
-response = requests.get('https://jsonplaceholder.typicode.com/todos')
+response = requests.get('https://jsonplaceholder.typicode.com/users')
 
 # Extrai os dados da resposta como uma lista de dicionários
 data = response.json()
