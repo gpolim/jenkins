@@ -2,7 +2,7 @@ import requests
 import polars as pl
 
 # Faz uma solicitação GET para a API
-response = requests.get('https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo')
+response = requests.get('https://jsonplaceholder.typicode.com/todos')
 
 # Extrai os dados da resposta como uma lista de dicionários
 data = response.json()
