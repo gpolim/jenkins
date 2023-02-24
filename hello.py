@@ -11,5 +11,7 @@ df = pl.DataFrame(data)
 print(df)
 
 df2 = df.drop("userId")
-df2['completed'] = df2['completed'].str_to_upper()
+
+df['completed'] = df['completed'].str_to_upper()
+
 print(df2)
