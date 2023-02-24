@@ -27,4 +27,4 @@ series = df2['title'].apply(to_uppercase)
 # Crie uma nova coluna com os valores retornados pelo método 'apply()'
 
 
-print(df2)
+print(series)
