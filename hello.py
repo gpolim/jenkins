@@ -12,6 +12,6 @@ print(df)
 
 df2 = df.drop("userId")
 
-df['completed'] = df['completed'].str_to_upper()
+df2['title'] = df2['title'].str_to_upper()
 
 print(df2)
