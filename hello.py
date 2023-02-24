@@ -27,4 +27,6 @@ series = df2['title'].apply(to_uppercase)
 # Crie uma nova coluna com os valores retornados pelo método 'apply()'
 df2 = df2.with_column('title_upper', series)
 
+df2 = df2.select(['id', 'title_upper', 'completed'])
+
 print(df2)
