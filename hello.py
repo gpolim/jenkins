@@ -11,5 +11,5 @@ df = pl.DataFrame(data)
 print(df)
 
 df2 = df.drop("userId")
-
+df2 = to_uppercase(df2)
 print(df2)
