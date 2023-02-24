@@ -10,6 +10,6 @@ df = pl.DataFrame(data)
 
 print(df)
 
-df2 = df.drop("userID")
+df2 = df.drop("userId")
 
 print(df2)
