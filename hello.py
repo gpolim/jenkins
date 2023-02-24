@@ -22,7 +22,7 @@ def to_uppercase(s: str) -> str:
     return s.upper()
 
 # Aplique a função personalizada à coluna 'title' usando o método 'apply()'
-series = df2['title'].apply(to_uppercase)
+series = df2[('title','id','completed')].apply(to_uppercase)
 
 # Crie uma nova coluna com os valores retornados pelo método 'apply()'
 
