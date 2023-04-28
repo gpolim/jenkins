@@ -1,5 +1,5 @@
 import requests
-import polars as pl
+import pdolars as pl
 
 print(pl.__version__)
 
