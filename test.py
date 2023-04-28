@@ -1,4 +1,4 @@
-import pandas
+import dpandas
 
 print("Hello, World!")
 
