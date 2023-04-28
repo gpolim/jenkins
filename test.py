@@ -1,3 +1,5 @@
+import pandas
+
 print("Hello, World!")
 
 A = 1
