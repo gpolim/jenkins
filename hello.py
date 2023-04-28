@@ -1,5 +1,5 @@
 
-import panda  as pd
+import pandas  as pd
 
 print(pl.__version__)
 
