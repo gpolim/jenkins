@@ -1,5 +1,5 @@
-
-import pandas  as pd
+import requests
+import polars as pl
 
 print(pl.__version__)
 
